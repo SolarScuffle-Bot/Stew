@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="generator" content="Docusaurus v2.0.1">
 <title data-rh="true">Stew | Stew</title><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://SolarScuffle-Bot.github.io/Stew/api/Stew"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:title" content="Stew | Stew"><link data-rh="true" rel="icon" href="/Stew/favicon.ico"><link data-rh="true" rel="canonical" href="https://SolarScuffle-Bot.github.io/Stew/api/Stew"><link data-rh="true" rel="alternate" href="https://SolarScuffle-Bot.github.io/Stew/api/Stew" hreflang="en"><link data-rh="true" rel="alternate" href="https://SolarScuffle-Bot.github.io/Stew/api/Stew" hreflang="x-default"><link rel="stylesheet" href="/Stew/assets/css/styles.ce453ceb.css">
-<link rel="preload" href="/Stew/assets/js/runtime~main.c8adf77f.js" as="script">
-<link rel="preload" href="/Stew/assets/js/main.bcfdf645.js" as="script">
+<link rel="preload" href="/Stew/assets/js/runtime~main.b7ed5271.js" as="script">
+<link rel="preload" href="/Stew/assets/js/main.072eb9bb.js" as="script">
 </head>
 <body class="navigation-with-keyboard">
 <script>!function(){function e(e){document.documentElement.setAttribute("data-theme",e)}var t=function(){var e=null;try{e=localStorage.getItem("theme")}catch(e){}return e}();null!==t?e(t):window.matchMedia("(prefers-color-scheme: dark)").matches?e("dark"):(window.matchMedia("(prefers-color-scheme: light)").matches,e("light"))}()</script><div id="__docusaurus">
@@ -32,15 +32,15 @@ RunService<span class="token punctuation">.</span>Heartbeat<span class="token pu
     <span class="token keyword">end</span>
 <span class="token keyword">end</span><span class="token punctuation">)</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="ConstructComponent"><code style="text-decoration:none">ConstructComponent</code><a class="hash-link" href="#ConstructComponent" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/SolarScuffle-Bot/Stew//blob/main/src/Stew.lua#L86"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Stew<!-- -->.</code><code class="green_DgR4">ConstructComponent</code><code>(</code><div class="inset_uKQm"><div><code>Name<!-- -->: </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Name">Name</a></code><code>,</code><span class="inlineDescription_G7Er">-- <span>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="ConstructComponent"><code style="text-decoration:none">ConstructComponent</code><a class="hash-link" href="#ConstructComponent" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/SolarScuffle-Bot/Stew//blob/main/src/Stew.lua#L87"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Stew<!-- -->.</code><code class="green_DgR4">ConstructComponent</code><code>(</code><div class="inset_uKQm"><div><code>Name<!-- -->: </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Name">Name</a></code><code>,</code><span class="inlineDescription_G7Er">-- <span>
 <p>The name of the component.</p>
-</span></span></div><div><code>Template<!-- -->: </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Template">Template</a></code><span class="inlineDescription_G7Er">-- <span>
+</span></span></div><div><code>Template<!-- -->: </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Template">Template?</a></code><span class="inlineDescription_G7Er">-- <span>
 <p>The template of the component.</p>
 </span></span></div></div><code>) → </code><code>(</code><code>)</code></div><h3>Types</h3><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Template"><a class="hash-link" href="#Template" title="Direct link to heading">​</a></h3><div class="memberString_GwaU"><code class="purple_ieR2">interface</code> <code>Template<!-- --> <!-- -->{</code><div class="inset_uKQm"><div><code>Constructor|constructor<!-- -->: </code><code class="purple_ieR2">(</code><div class="inset_uKQm"><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Entity">Entity</a></code><code>: </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Entity">Entity</a></code><code class="purple_ieR2">,</code></div><div class="inset_uKQm"><code class="blue_P4bS">...</code><code>: </code><code class="blue_P4bS">any</code></div><code class="purple_ieR2">)</code><code class="purple_ieR2"> → </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Component">Component</a></code></div><div><code>Destructor|destructor<!-- -->: </code><code class="purple_ieR2">(</code><div class="inset_uKQm"><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Entity">Entity</a></code><code>: </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Entity">Entity</a></code><code class="purple_ieR2">,</code></div><div class="inset_uKQm"><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Component">Component</a></code><code>: </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Component">Component</a></code><code class="purple_ieR2">,</code></div><div class="inset_uKQm"><code class="blue_P4bS">...</code><code>: </code><code class="blue_P4bS">any</code></div><code class="purple_ieR2">)</code><code class="purple_ieR2"> → </code><code class="purple_ieR2">(</code><code class="purple_ieR2">)</code></div></div><code>}</code></div><div></div><div>
 <p>
-  Sets up an internal constructor and destructor for a component. This is used to create and destroy components in entities.
-  The constructor passes the entity as the first argument, and any additional arguments passed in.
-  The destructor passes the entity, the component being destructed, and any additional arguments passed in.
+  Sets up an internal constructor and destructor for a component. This is used to create and destroy components in entities.If a template is not provided, an empty table will be used instead.
+  The constructor passes the entity as the first argument, and any additional arguments passed in. If no constructor is specified, a default constructor that returns true is used.
+  The destructor passes the entity, the component being destructed, and any additional arguments passed in. If no destructor is specified, a default destructor that does nothing is used.
 </p>
 <pre class="language-lua"><code class="language-lua">Stew<span class="token punctuation">.</span><span class="token function">ConstructComponent</span><span class="token punctuation">(</span><span class="token string">"Model"</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
     Constructor <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span>Entity <span class="token punctuation">:</span> Stew<span class="token punctuation">.</span>Entity<span class="token punctuation">,</span> Model <span class="token punctuation">:</span> Model<span class="token punctuation">)</span>
@@ -52,7 +52,7 @@ RunService<span class="token punctuation">.</span>Heartbeat<span class="token pu
     <span class="token keyword">end</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="CreateComponent"><code style="text-decoration:none">CreateComponent</code><a class="hash-link" href="#CreateComponent" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/SolarScuffle-Bot/Stew//blob/main/src/Stew.lua#L106"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Stew<!-- -->.</code><code class="green_DgR4">CreateComponent</code><code>(</code><div class="inset_uKQm"><div><code>Entity<!-- -->: </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Entity">Entity</a></code><code>,</code><span class="inlineDescription_G7Er">-- <span>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="CreateComponent"><code style="text-decoration:none">CreateComponent</code><a class="hash-link" href="#CreateComponent" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/SolarScuffle-Bot/Stew//blob/main/src/Stew.lua#L107"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Stew<!-- -->.</code><code class="green_DgR4">CreateComponent</code><code>(</code><div class="inset_uKQm"><div><code>Entity<!-- -->: </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Entity">Entity</a></code><code>,</code><span class="inlineDescription_G7Er">-- <span>
 <p>The entity to create the component in.</p>
 </span></span></div><div><code>Name<!-- -->: </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Name">Name</a></code><code>,</code><span class="inlineDescription_G7Er">-- <span>
 <p>The name of the component to be created.</p>
@@ -68,7 +68,7 @@ Stew<span class="token punctuation">.</span><span class="token function">CreateC
 
 <span class="token function">print</span><span class="token punctuation">(</span>Entity1<span class="token punctuation">.</span>Model<span class="token punctuation">)</span> <span class="token comment">--> CoolModel</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="DeleteComponent"><code style="text-decoration:none">DeleteComponent</code><a class="hash-link" href="#DeleteComponent" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/SolarScuffle-Bot/Stew//blob/main/src/Stew.lua#L125"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Stew<!-- -->.</code><code class="green_DgR4">DeleteComponent</code><code>(</code><div class="inset_uKQm"><div><code>Entity<!-- -->: </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Entity">Entity</a></code><code>,</code><span class="inlineDescription_G7Er">-- <span>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="DeleteComponent"><code style="text-decoration:none">DeleteComponent</code><a class="hash-link" href="#DeleteComponent" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/SolarScuffle-Bot/Stew//blob/main/src/Stew.lua#L126"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Stew<!-- -->.</code><code class="green_DgR4">DeleteComponent</code><code>(</code><div class="inset_uKQm"><div><code>Entity<!-- -->: </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Entity">Entity</a></code><code>,</code><span class="inlineDescription_G7Er">-- <span>
 <p>The entity to delete the component from.</p>
 </span></span></div><div><code>Name<!-- -->: </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Name">Name</a></code><code>,</code><span class="inlineDescription_G7Er">-- <span>
 <p>The name of the component to be deleted.</p>
@@ -82,11 +82,11 @@ Stew<span class="token punctuation">.</span><span class="token function">DeleteC
 
 <span class="token function">print</span><span class="token punctuation">(</span>Entity1<span class="token punctuation">.</span>Model<span class="token punctuation">)</span> <span class="token comment">--> nil</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="CreateEntity"><code style="text-decoration:none">CreateEntity</code><a class="hash-link" href="#CreateEntity" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/SolarScuffle-Bot/Stew//blob/main/src/Stew.lua#L137"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Stew<!-- -->.</code><code class="green_DgR4">CreateEntity</code><code>(</code><code>) → </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Entity">Entity</a></code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="CreateEntity"><code style="text-decoration:none">CreateEntity</code><a class="hash-link" href="#CreateEntity" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/SolarScuffle-Bot/Stew//blob/main/src/Stew.lua#L138"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Stew<!-- -->.</code><code class="green_DgR4">CreateEntity</code><code>(</code><code>) → </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Entity">Entity</a></code></div><div>
 <p>Creates a new entity. Entities are tables that contain components via their names.</p>
 <pre class="language-lua"><code class="language-lua"><span class="token keyword">local</span> Entity1 <span class="token punctuation">:</span> Stew<span class="token punctuation">.</span>Entity <span class="token operator">=</span> Stew<span class="token punctuation">.</span><span class="token function">CreateEntity</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="DeleteEntity"><code style="text-decoration:none">DeleteEntity</code><a class="hash-link" href="#DeleteEntity" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/SolarScuffle-Bot/Stew//blob/main/src/Stew.lua#L149"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Stew<!-- -->.</code><code class="green_DgR4">DeleteEntity</code><code>(</code><code>Entity<!-- -->: </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Entity">Entity</a></code><code>) → </code><code>(</code><code>)</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="DeleteEntity"><code style="text-decoration:none">DeleteEntity</code><a class="hash-link" href="#DeleteEntity" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/SolarScuffle-Bot/Stew//blob/main/src/Stew.lua#L150"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Stew<!-- -->.</code><code class="green_DgR4">DeleteEntity</code><code>(</code><code>Entity<!-- -->: </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/Stew/api/Stew#Entity">Entity</a></code><code>) → </code><code>(</code><code>)</code></div><div>
 <p>Removes all components from the entity and deletes from all internal storage.</p>
 <pre class="language-lua"><code class="language-lua">Stew<span class="token punctuation">.</span><span class="token function">DeleteEntity</span><span class="token punctuation">(</span>Entity1<span class="token punctuation">)</span>
 </code></pre>
@@ -119,7 +119,7 @@ Stew<span class="token punctuation">.</span><span class="token function">DeleteC
         },
         {
             &quot;name&quot;: &quot;ConstructComponent&quot;,
-            &quot;desc&quot;: &quot;Sets up an internal constructor and destructor for a component. This is used to create and destroy components in entities.\nThe constructor passes the entity as the first argument, and any additional arguments passed in.\nThe destructor passes the entity, the component being destructed, and any additional arguments passed in.\n\n```lua\nStew.ConstructComponent(\&quot;Model\&quot;, {\n    Constructor = function(Entity : Stew.Entity, Model : Model)\n        return Model:Clone()\n    end;\n\n    Destructor = function(Entity : Stew.Entity, Component : Model)\n        Component:Destroy()\n    end;\n})\n```&quot;,
+            &quot;desc&quot;: &quot;Sets up an internal constructor and destructor for a component. This is used to create and destroy components in entities.If a template is not provided, an empty table will be used instead.\nThe constructor passes the entity as the first argument, and any additional arguments passed in. If no constructor is specified, a default constructor that returns true is used.\nThe destructor passes the entity, the component being destructed, and any additional arguments passed in. If no destructor is specified, a default destructor that does nothing is used.\n\n\n```lua\nStew.ConstructComponent(\&quot;Model\&quot;, {\n    Constructor = function(Entity : Stew.Entity, Model : Model)\n        return Model:Clone()\n    end;\n\n    Destructor = function(Entity : Stew.Entity, Component : Model)\n        Component:Destroy()\n    end;\n})\n```&quot;,
             &quot;params&quot;: [
                 {
                     &quot;name&quot;: &quot;Name&quot;,
@@ -129,13 +129,13 @@ Stew<span class="token punctuation">.</span><span class="token function">DeleteC
                 {
                     &quot;name&quot;: &quot;Template&quot;,
                     &quot;desc&quot;: &quot;The template of the component.&quot;,
-                    &quot;lua_type&quot;: &quot;Template&quot;
+                    &quot;lua_type&quot;: &quot;Template?&quot;
                 }
             ],
             &quot;returns&quot;: [],
             &quot;function_type&quot;: &quot;static&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 86,
+                &quot;line&quot;: 87,
                 &quot;path&quot;: &quot;src/Stew.lua&quot;
             }
         },
@@ -162,7 +162,7 @@ Stew<span class="token punctuation">.</span><span class="token function">DeleteC
             &quot;returns&quot;: [],
             &quot;function_type&quot;: &quot;static&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 106,
+                &quot;line&quot;: 107,
                 &quot;path&quot;: &quot;src/Stew.lua&quot;
             }
         },
@@ -189,7 +189,7 @@ Stew<span class="token punctuation">.</span><span class="token function">DeleteC
             &quot;returns&quot;: [],
             &quot;function_type&quot;: &quot;static&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 125,
+                &quot;line&quot;: 126,
                 &quot;path&quot;: &quot;src/Stew.lua&quot;
             }
         },
@@ -205,7 +205,7 @@ Stew<span class="token punctuation">.</span><span class="token function">DeleteC
             ],
             &quot;function_type&quot;: &quot;static&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 137,
+                &quot;line&quot;: 138,
                 &quot;path&quot;: &quot;src/Stew.lua&quot;
             }
         },
@@ -222,7 +222,7 @@ Stew<span class="token punctuation">.</span><span class="token function">DeleteC
             &quot;returns&quot;: [],
             &quot;function_type&quot;: &quot;static&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 149,
+                &quot;line&quot;: 150,
                 &quot;path&quot;: &quot;src/Stew.lua&quot;
             }
         }
@@ -302,7 +302,7 @@ Stew<span class="token punctuation">.</span><span class="token function">DeleteC
         &quot;path&quot;: &quot;src/Stew.lua&quot;
     }
 }</pre></details></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#types" class="table-of-contents__link toc-highlight">Types</a><ul><li><a href="#Collection" class="table-of-contents__link toc-highlight">Collection</a></li><li><a href="#Component" class="table-of-contents__link toc-highlight">Component</a></li><li><a href="#Entity" class="table-of-contents__link toc-highlight">Entity</a></li><li><a href="#Name" class="table-of-contents__link toc-highlight">Name</a></li><li><a href="#Template" class="table-of-contents__link toc-highlight">Template</a></li></ul></li><li><a href="#properties" class="table-of-contents__link toc-highlight">Properties</a></li><li><a href="#functions" class="table-of-contents__link toc-highlight">Functions</a><ul><li><a href="#ConstructComponent" class="table-of-contents__link toc-highlight">.ConstructComponent</a></li><li><a href="#CreateComponent" class="table-of-contents__link toc-highlight">.CreateComponent</a></li><li><a href="#CreateEntity" class="table-of-contents__link toc-highlight">.CreateEntity</a></li><li><a href="#DeleteComponent" class="table-of-contents__link toc-highlight">.DeleteComponent</a></li><li><a href="#DeleteEntity" class="table-of-contents__link toc-highlight">.DeleteEntity</a></li><li><a href="#GetCollection" class="table-of-contents__link toc-highlight">.GetCollection</a></li></ul></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2021 SolarScuffle-Bot. Built with Moonwave and Docusaurus</div></div></div></footer></div>
-<script src="/Stew/assets/js/runtime~main.c8adf77f.js"></script>
-<script src="/Stew/assets/js/main.bcfdf645.js"></script>
+<script src="/Stew/assets/js/runtime~main.b7ed5271.js"></script>
+<script src="/Stew/assets/js/main.072eb9bb.js"></script>
 </body>
 </html>
