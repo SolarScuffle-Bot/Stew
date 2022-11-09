@@ -65,11 +65,12 @@
     @function ConstructComponent
 
     @param Name Name -- The name of the component.
-    @param Template Template -- The template of the component.
+    @param Template Template? -- The template of the component.
 
-    Sets up an internal constructor and destructor for a component. This is used to create and destroy components in entities.
-    The constructor passes the entity as the first argument, and any additional arguments passed in.
-    The destructor passes the entity, the component being destructed, and any additional arguments passed in.
+    Sets up an internal constructor and destructor for a component. This is used to create and destroy components in entities.If a template is not provided, an empty table will be used instead.
+    The constructor passes the entity as the first argument, and any additional arguments passed in. If no constructor is specified, a default constructor that returns true is used.
+    The destructor passes the entity, the component being destructed, and any additional arguments passed in. If no destructor is specified, a default destructor that does nothing is used.
+
 
     ```lua
     Stew.ConstructComponent("Model", {
